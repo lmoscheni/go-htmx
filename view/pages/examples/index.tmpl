@@ -1,0 +1,20 @@
+{{ define "title" }}Examples{{ end }}
+{{ define "content" }}
+<main class="w-2/3 p-14 rounded-md bg-slate-800 flex flex-col justify-center items-center">
+	<h1 class="pb-5 text-4xl text-blue-500">Examples</h1>
+	<ul class="w-full flex flex-col content-center items-center gap-3 font-bold text-white text-center">
+		<li
+			class="w-48 p-1.5 rounded-md bg-blue-500 hover:bg-inherit hover:shadow-sm hover:shadow-blue-500 hover:text-blue-500">
+			<a href="/examples/counter" target="_self" rel="noopener noreferrer">Counter</a>
+		</li>
+		<li
+			class="w-48 p-1.5 rounded-md bg-blue-500 hover:bg-inherit hover:shadow-sm hover:shadow-blue-500 hover:text-blue-500">
+			<a href="/examples/movies-list" target="_self" rel="noopener noreferrer">Movies list</a>
+		</li>
+		<li
+			class="w-48 p-1.5 rounded-md bg-blue-500 hover:bg-inherit hover:shadow-sm hover:shadow-blue-500 hover:text-blue-500">
+			<a href="/examples/todo-list" target="_self" rel="noopener noreferrer">TODO list</a>
+		</li>
+	</ul>
+</main>
+{{ end }}
